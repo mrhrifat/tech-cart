@@ -1,10 +1,11 @@
 import React from 'react'
+import Products from './Products/Products'
 
 const Root = () => {
     return (
-        <div>
-            <h4>Bismillahir Rahmanir Rahim</h4>
-        </div>
+        <>
+            <Products />
+        </>
     )
 }
 
