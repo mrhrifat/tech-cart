@@ -1,9 +1,10 @@
 import React from 'react'
-import Products from './Products/Products'
+import { Navbar, Products } from './'
 
 const Root = () => {
     return (
         <>
+            <Navbar />
             <Products />
         </>
     )
